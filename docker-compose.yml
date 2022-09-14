@@ -1,0 +1,8 @@
+version: '3'
+services:
+  www:
+    image: php:8.1.1-apache
+    volumes:
+      - "./:/var/www/html" # sync the current dir on local machine to the dir of container
+    ports:
+      - 80:80
