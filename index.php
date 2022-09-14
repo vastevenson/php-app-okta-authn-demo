@@ -3,10 +3,10 @@
 session_start();
 
 // these are unique to the Okta app for Zillow testing
-$client_id = '0oa6icw81zjlYEKpj5d7';
-$client_secret = '0OaJBm1dQit54RYkuVXkPErQvAf5_qIz68PD1YGT';
+$client_id = '';
+$client_secret = '';
 $redirect_uri = 'http://localhost:80/';
-$oktaOrg = 'dev-96447452.okta.com'; # copy this from the okta developer account profile
+$oktaOrg = ''; # copy this from the okta developer account profile
 
 $metadata_url = "https://$oktaOrg/oauth2/default/.well-known/oauth-authorization-server";
 // Fetch the authorization server metadata which contains a few URLs
